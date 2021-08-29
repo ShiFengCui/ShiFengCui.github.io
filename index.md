@@ -25,11 +25,11 @@ This is a [link](http://google.com). Something *italics* and something **bold**.
 
 Here is a table
 
-Year | Award | Category
------|-------|--------
-2014 | Emmy  | Won Outstanding Lead Actor in a miniseries or a movie
-2015 | BAFTA | Nominated for Best Leading Actor for Sherlock
-2014 | Satellite | Won Best Actor miniseries or television film
+| Year | Award     | Category                                              |
+| ---- | --------- | ----------------------------------------------------- |
+| 2014 | Emmy      | Won Outstanding Lead Actor in a miniseries or a movie |
+| 2015 | BAFTA     | Nominated for Best Leading Actor for Sherlock         |
+| 2014 | Satellite | Won Best Actor miniseries or television film          |
 
 Here is a horizontal rule
 
@@ -49,6 +49,19 @@ Here is a blockquote
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
+      <p>{{ post.description }}</p>
+       {% if post.images_show == 1 %}
+           <div class="card-columns">
+       {% endif %}
+        {% if post.images_show == 2 %}
+         <div class="">
+       {% endif %}
+      {% for img in post.images %}
+            <div class="card" data-toggle="modal" data-target="#exampleModal" data-img="{{ img }}">
+                <img class="card-img-top" src="{{ img }}" />
+            </div>
+      {% endfor %}
+      </div>
     </li>
   {% endfor %}
 </ul>
