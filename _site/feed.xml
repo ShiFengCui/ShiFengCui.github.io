@@ -1,1 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="//feed.xml" rel="self" type="application/atom+xml" /><link href="//" rel="alternate" type="text/html" /><updated>2021-08-29T20:52:28+08:00</updated><id>//feed.xml</id><title type="html">Simple</title><entry><title type="html">这是鲁迅的一篇文章</title><link href="//cate1/cate2/2012/09/12/how-to-write-a-blog.html" rel="alternate" type="text/html" title="这是鲁迅的一篇文章" /><published>2012-09-12T00:00:00+08:00</published><updated>2012-09-12T00:00:00+08:00</updated><id>//cate1/cate2/2012/09/12/how-to-write-a-blog</id><content type="html" xml:base="//cate1/cate2/2012/09/12/how-to-write-a-blog.html">&lt;h1 id=&quot;2012-09-12-how-to-write-a-blogmd&quot;&gt;2012-09-12-how-to-write-a-blog.md&lt;/h1&gt;</content><author><name></name></author><category term="cate1" /><category term="cate2" /><summary type="html">2012-09-12-how-to-write-a-blog.md</summary></entry><entry><title type="html">这是鲁迅的一篇文章2</title><link href="//cate1/cate2/2012/09/12/how-to-write-a-blog2.html" rel="alternate" type="text/html" title="这是鲁迅的一篇文章2" /><published>2012-09-12T00:00:00+08:00</published><updated>2012-09-12T00:00:00+08:00</updated><id>//cate1/cate2/2012/09/12/how-to-write-a-blog2</id><content type="html" xml:base="//cate1/cate2/2012/09/12/how-to-write-a-blog2.html">&lt;h1 id=&quot;2012-09-12-how-to-write-a-blogmd&quot;&gt;2012-09-12-how-to-write-a-blog.md&lt;/h1&gt;</content><author><name></name></author><category term="cate1" /><category term="cate2" /><summary type="html">2012-09-12-how-to-write-a-blog.md</summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="//feed.xml" rel="self" type="application/atom+xml" /><link href="//" rel="alternate" type="text/html" /><updated>2021-08-30T16:51:38+08:00</updated><id>//feed.xml</id><title type="html">Simple</title><entry><title type="html">初秋的傍晚</title><link href="//image/2021/08/27/kwai-nignt.html" rel="alternate" type="text/html" title="初秋的傍晚" /><published>2021-08-27T00:00:00+08:00</published><updated>2021-08-27T00:00:00+08:00</updated><id>//image/2021/08/27/kwai-nignt</id><content type="html" xml:base="//image/2021/08/27/kwai-nignt.html"></content><author><name></name></author><category term="image" /><summary type="html"></summary></entry><entry><title type="html">奶糖和三花</title><link href="//image/2021/08/23/naitang-and-sanhua.html" rel="alternate" type="text/html" title="奶糖和三花" /><published>2021-08-23T00:00:00+08:00</published><updated>2021-08-23T00:00:00+08:00</updated><id>//image/2021/08/23/naitang-and-sanhua</id><content type="html" xml:base="//image/2021/08/23/naitang-and-sanhua.html"></content><author><name></name></author><category term="image" /><summary type="html"></summary></entry><entry><title type="html">快手傍晚</title><link href="//image/2021/08/07/kwai-nignt.html" rel="alternate" type="text/html" title="快手傍晚" /><published>2021-08-07T00:00:00+08:00</published><updated>2021-08-07T00:00:00+08:00</updated><id>//image/2021/08/07/kwai-nignt</id><content type="html" xml:base="//image/2021/08/07/kwai-nignt.html">&lt;h2 id=&quot;research-interest&quot;&gt;Research Interest&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum ac erat aliquam dapibus. Vestibulum vehicula placerat ex, a consectetur odio pharetra quis. Mauris id urna ante. Fusce pharetra diam ac nisi aliquet, vel egestas ex iaculis. Pellentesque laoreet cursus tellus sed pellentesque. Praesent a rhoncus elit. Nunc ipsum nisl, consequat sit amet pretium quis, gravida id ipsum.&lt;/p&gt;
+
+&lt;h2 id=&quot;publications&quot;&gt;Publications&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;F.Bar, J.Doe: Effects of having a placeholder of a name&lt;/li&gt;
+  &lt;li&gt;S.Holmes, J.Watson: Consequences of living with a sociopath in London&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;typography&quot;&gt;Typography&lt;/h2&gt;
+
+&lt;p&gt;This is a &lt;a href=&quot;http://google.com&quot;&gt;link&lt;/a&gt;. Something &lt;em&gt;italics&lt;/em&gt; and something &lt;strong&gt;bold&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here is a table&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Award&lt;/th&gt;
+      &lt;th&gt;Category&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Emmy&lt;/td&gt;
+      &lt;td&gt;Won Outstanding Lead Actor in a miniseries or a movie&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;BAFTA&lt;/td&gt;
+      &lt;td&gt;Nominated for Best Leading Actor for Sherlock&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Satellite&lt;/td&gt;
+      &lt;td&gt;Won Best Actor miniseries or television film&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Here is a horizontal rule&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Here is a blockquote&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Foo Bar: Head of Department, Placeholder Names, Lorem&lt;/li&gt;
+  &lt;li&gt;John Doe: Associate Professor, Department of Computer Science, Ipsum&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="image" /><summary type="html">Research Interest</summary></entry></feed>

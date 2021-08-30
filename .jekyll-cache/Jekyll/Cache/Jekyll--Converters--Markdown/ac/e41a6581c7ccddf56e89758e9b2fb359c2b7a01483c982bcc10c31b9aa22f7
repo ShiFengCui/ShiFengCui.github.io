@@ -1,0 +1,74 @@
+I"�<h2 id="about-me">About Me</h2>
+
+<p><img class="profile-picture" src="/image/WechatIMG99.jpeg" /></p>
+
+<p>我们的生活可能都是看似平淡的，看似困顿无聊的，可是里面饱含着不为人知的神秘的随机性，那种大命运之上有着各种各样让人目眩神迷的小机关。</p>
+
+<p>流水不争先，争的是滔滔不绝。</p>
+
+<div>
+  
+    <div class="blog-list" style="margin-bottom:50px;">
+      <blockquote>
+        <p>September 12, 2012</p>
+        <p>As before, to automate the layout, a list of images is stored in a frontmatter variable. The post .</p>
+      </blockquote>
+      <!-- <a href="/cate1/cate2/2012/09/12/how-to-write-a-blog2.html">这是鲁迅的一篇文章2</a> -->
+      <!-- <p>As before, to automate the layout, a list of images is stored in a frontmatter variable. The post .</p> -->
+       
+        
+         <div class="">
+       
+       
+            <div class="card" data-toggle="modal" data-target="#exampleModal" data-img="image/951630236960_.pic_hd.jpg">
+                <img class="card-img-top" src="image/951630236960_.pic_hd.jpg" />
+            </div>
+       
+      </div>
+    </div>
+  
+    <div class="blog-list" style="margin-bottom:50px;">
+      <blockquote>
+        <p>September 12, 2012</p>
+        <p>As before, to automate the layout, a list of images is stored in a frontmatter variable. The post then loops over that list to output the cards. This is easier than copy-pasting the same HTML for each image.</p>
+      </blockquote>
+      <!-- <a href="/cate1/cate2/2012/09/12/how-to-write-a-blog.html">这是鲁迅的一篇文章</a> -->
+      <!-- <p>As before, to automate the layout, a list of images is stored in a frontmatter variable. The post then loops over that list to output the cards. This is easier than copy-pasting the same HTML for each image.</p> -->
+       
+           <div class="card-columns">
+       
+        
+       
+            <div class="card" data-toggle="modal" data-target="#exampleModal" data-img="/image/901630236955_.pic_hd.jpg">
+                <img class="card-img-top" src="/image/901630236955_.pic_hd.jpg" />
+            </div>
+       
+            <div class="card" data-toggle="modal" data-target="#exampleModal" data-img="image/951630236960_.pic_hd.jpg">
+                <img class="card-img-top" src="image/951630236960_.pic_hd.jpg" />
+            </div>
+       
+            <div class="card" data-toggle="modal" data-target="#exampleModal" data-img="image/951630236960_.pic_hd.jpg">
+                <img class="card-img-top" src="image/951630236960_.pic_hd.jpg" />
+            </div>
+       
+            <div class="card" data-toggle="modal" data-target="#exampleModal" data-img="image/951630236960_.pic_hd.jpg">
+                <img class="card-img-top" src="image/951630236960_.pic_hd.jpg" />
+            </div>
+       
+            <div class="card" data-toggle="modal" data-target="#exampleModal" data-img="image/971630236962_.pic_hd.jpg">
+                <img class="card-img-top" src="image/971630236962_.pic_hd.jpg" />
+            </div>
+       
+      </div>
+    </div>
+  
+</div>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li>Foo Bar: Head of Department, Placeholder Names, Lorem</li>
+  <li>John Doe: Associate Professor, Department of Computer Science, Ipsum</li>
+</ul>
+
+:ET

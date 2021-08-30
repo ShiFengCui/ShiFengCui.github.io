@@ -4,64 +4,35 @@ layout: default
 
 ## About Me
 
-<img class="profile-picture" src="sherlock.jpg">
+<img class="profile-picture" src="/image/WechatIMG99.jpeg">
 
-Hi! I am a junior year student of B.E. Computer Science at Birla Institute of Technology and Science, Pilani.
+我们的生活可能都是看似平淡的，看似困顿无聊的，可是里面饱含着不为人知的神秘的随机性，那种大命运之上有着各种各样让人目眩神迷的小机关。
 
-This is a jekyll based resume template. You can find the full source code on [GitHub](https://github.com/bk2dcradle/researcher)
-
-## Research Interest
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum ac erat aliquam dapibus. Vestibulum vehicula placerat ex, a consectetur odio pharetra quis. Mauris id urna ante. Fusce pharetra diam ac nisi aliquet, vel egestas ex iaculis. Pellentesque laoreet cursus tellus sed pellentesque. Praesent a rhoncus elit. Nunc ipsum nisl, consequat sit amet pretium quis, gravida id ipsum.
-
-## Publications
-
-1. F.Bar, J.Doe: Effects of having a placeholder of a name
-2. S.Holmes, J.Watson: Consequences of living with a sociopath in London
-
-## Typography
-
-This is a [link](http://google.com). Something *italics* and something **bold**.
-
-Here is a table
-
-| Year | Award     | Category                                              |
-| ---- | --------- | ----------------------------------------------------- |
-| 2014 | Emmy      | Won Outstanding Lead Actor in a miniseries or a movie |
-| 2015 | BAFTA     | Nominated for Best Leading Actor for Sherlock         |
-| 2014 | Satellite | Won Best Actor miniseries or television film          |
-
-Here is a horizontal rule
+流水不争先，争的是滔滔不绝。
 
 ---
 
-Here is a blockquote
-
-> To a great mind, nothing is little
-
-## References
-
-* Foo Bar: Head of Department, Placeholder Names, Lorem
-* John Doe: Associate Professor, Department of Computer Science, Ipsum
-
-
-<ul>
+<div>
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <p>{{ post.description }}</p>
+    <div class="blog-list" style="margin-bottom:50px;">
+      <blockquote>
+        <p>{{ post.date | date: '%B %d, %Y' }} <a href="{{ post.url }}">>>></a></p>
+        <p>{{ post.description }}</p>
+      </blockquote>
+      <!-- <a href="{{ post.url }}">{{ post.title }}</a> -->
+      <!-- <p>{{ post.description }}</p> -->
        {% if post.images_show == 1 %}
            <div class="card-columns">
        {% endif %}
         {% if post.images_show == 2 %}
          <div class="">
        {% endif %}
-      {% for img in post.images %}
+       {% for img in post.images %}
             <div class="card" data-toggle="modal" data-target="#exampleModal" data-img="{{ img }}">
-                <img class="card-img-top" src="{{ img }}" />
+                <img class="lozad card-img-top" data-src="{{ img }}" />
             </div>
-      {% endfor %}
+       {% endfor %}
       </div>
-    </li>
+    </div>
   {% endfor %}
-</ul>
+</div>

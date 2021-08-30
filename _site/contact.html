@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="/css/main.css">
     
     
+    <!-- 图片懒加载 -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
     <!-- Facebook Open Graph -->
     <meta name="og:description" content="">
     <meta name="og:title" content="Simple">
@@ -32,12 +34,6 @@
         <meta name="twitter:image" content="">
     
     <style>
-        /*!
- * Bootstrap v4.4.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 .card-columns {
         column-count: 3;
         column-gap: 1.25rem;
@@ -84,7 +80,7 @@ img {
             <ul id="navlist" class="alignable pull-right navbar-ul">
                 
                     
-                        <li class="alignable pull-left nav-list"><a href="">About</a>
+                        <li class="alignable pull-left nav-list"><a href="/">First</a>
                     
                     
                         /
@@ -92,7 +88,7 @@ img {
                         </li>
                 
                     
-                        <li class="alignable pull-left nav-list"><a target="_blank" href="resume.pdf">Resume</a>
+                        <li class="alignable pull-left nav-list"><a href="resume.pdf">About</a>
                     
                     
                         /
@@ -111,13 +107,15 @@ img {
         <hr>
         
             <div class="container content contact">
+                <h1> 首页 </h1>
         
+            
                 <ul>
   <li>
-    <p>Email: <a href="mailto:foo@xyz.com">foo@xyz.com</a></p>
+    <p>Email: <a href="mailto:cuishifeng0207@163.com">cuishifeng0207@163.com</a></p>
   </li>
   <li>
-    <p>Phone: <a href="tel:+91-123123">+91-123123</a></p>
+    <p>Phone: <a href="tel:">+91-隐私</a></p>
   </li>
 </ul>
 
@@ -126,11 +124,11 @@ img {
 <h2 id="mailing-address">Mailing Address</h2>
 
 <blockquote>
-  <p>221B, Baker Street</p>
+  <p>中关村</p>
 
-  <p>London</p>
+  <p>BeiJing</p>
 
-  <p>United Kingdom</p>
+  <p>China</p>
 </blockquote>
 
 <hr />
@@ -138,20 +136,28 @@ img {
 <h2 id="social">Social</h2>
 
 <ol>
-  <li><a href="#">Facebook</a></li>
+  <li><a href="https://github.com/ShiFengCui/">GitHub</a></li>
   <li><a href="#">Twitter</a></li>
   <li><a href="#">Google+</a></li>
 </ol>
 
+            
+               
                 
                     <hr />
-                    <p style="text-align: center; margin-bottom: 10px">
-                    <a href="https://shifengcui.github.io" style="color: black"><small>Page design by Ankit Sultana</small></a>
+                    <p style="text-align: center; margin-bottom: 50px;padding-top: 50px;padding-bottom: 50px;">
+                    <a href="https://cuishifeng.life" style="color: black"><small>崔世峰的博客 - Page design by Ankit Sultana</small></a>
                     </p>
                 
             </div>
     </div>
+
     
+    <script>
+        const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+        observer.observe();
+    </script>
+
 </body>
 <footer>
 </footer>

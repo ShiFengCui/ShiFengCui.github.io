@@ -1,0 +1,130 @@
+I"�<h2 id="about-me">About Me</h2>
+
+<p><img class="profile-picture" src="/image/WechatIMG99.jpeg" /></p>
+
+<p>我们的生活可能都是看似平淡的，看似困顿无聊的，可是里面饱含着不为人知的神秘的随机性，那种大命运之上有着各种各样让人目眩神迷的小机关。</p>
+
+<p>流水不争先，争的是滔滔不绝。</p>
+
+<h2 id="research-interest">Research Interest</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum ac erat aliquam dapibus. Vestibulum vehicula placerat ex, a consectetur odio pharetra quis. Mauris id urna ante. Fusce pharetra diam ac nisi aliquet, vel egestas ex iaculis. Pellentesque laoreet cursus tellus sed pellentesque. Praesent a rhoncus elit. Nunc ipsum nisl, consequat sit amet pretium quis, gravida id ipsum.</p>
+
+<h2 id="publications">Publications</h2>
+
+<ol>
+  <li>F.Bar, J.Doe: Effects of having a placeholder of a name</li>
+  <li>S.Holmes, J.Watson: Consequences of living with a sociopath in London</li>
+</ol>
+
+<h2 id="typography">Typography</h2>
+
+<p>This is a <a href="http://google.com">link</a>. Something <em>italics</em> and something <strong>bold</strong>.</p>
+
+<p>Here is a table</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Award</th>
+      <th>Category</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2014</td>
+      <td>Emmy</td>
+      <td>Won Outstanding Lead Actor in a miniseries or a movie</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>BAFTA</td>
+      <td>Nominated for Best Leading Actor for Sherlock</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Satellite</td>
+      <td>Won Best Actor miniseries or television film</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Here is a horizontal rule</p>
+
+<hr />
+
+<p>Here is a blockquote</p>
+
+<blockquote>
+  <p>2021-08-29</p>
+
+  <p>To a great mind, nothing is little</p>
+</blockquote>
+
+<div>
+  
+    <!-- <li> -->
+      <blockquote>
+        <p>2012-09-12 00:00:00 +0800</p>
+        <p>As before, to automate the layout, a list of images is stored in a frontmatter variable. The post .</p>
+      </blockquote>
+      <!-- <a href="/cate1/cate2/2012/09/12/how-to-write-a-blog2.html">这是鲁迅的一篇文章2</a> -->
+      <!-- <p>As before, to automate the layout, a list of images is stored in a frontmatter variable. The post .</p> -->
+       
+        
+         <div class="">
+       
+       
+            <div class="card" data-toggle="modal" data-target="#exampleModal" data-img="image/951630236960_.pic_hd.jpg">
+                <img class="card-img-top" src="image/951630236960_.pic_hd.jpg" />
+            </div>
+       
+      </div>
+    <!-- </li> -->
+  
+    <!-- <li> -->
+      <blockquote>
+        <p>2012-09-12 00:00:00 +0800</p>
+        <p>As before, to automate the layout, a list of images is stored in a frontmatter variable. The post then loops over that list to output the cards. This is easier than copy-pasting the same HTML for each image.</p>
+      </blockquote>
+      <!-- <a href="/cate1/cate2/2012/09/12/how-to-write-a-blog.html">这是鲁迅的一篇文章</a> -->
+      <!-- <p>As before, to automate the layout, a list of images is stored in a frontmatter variable. The post then loops over that list to output the cards. This is easier than copy-pasting the same HTML for each image.</p> -->
+       
+           <div class="card-columns">
+       
+        
+       
+            <div class="card" data-toggle="modal" data-target="#exampleModal" data-img="/image/901630236955_.pic_hd.jpg">
+                <img class="card-img-top" src="/image/901630236955_.pic_hd.jpg" />
+            </div>
+       
+            <div class="card" data-toggle="modal" data-target="#exampleModal" data-img="image/951630236960_.pic_hd.jpg">
+                <img class="card-img-top" src="image/951630236960_.pic_hd.jpg" />
+            </div>
+       
+            <div class="card" data-toggle="modal" data-target="#exampleModal" data-img="image/951630236960_.pic_hd.jpg">
+                <img class="card-img-top" src="image/951630236960_.pic_hd.jpg" />
+            </div>
+       
+            <div class="card" data-toggle="modal" data-target="#exampleModal" data-img="image/951630236960_.pic_hd.jpg">
+                <img class="card-img-top" src="image/951630236960_.pic_hd.jpg" />
+            </div>
+       
+            <div class="card" data-toggle="modal" data-target="#exampleModal" data-img="image/971630236962_.pic_hd.jpg">
+                <img class="card-img-top" src="image/971630236962_.pic_hd.jpg" />
+            </div>
+       
+      </div>
+    <!-- </li> -->
+  
+</div>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li>Foo Bar: Head of Department, Placeholder Names, Lorem</li>
+  <li>John Doe: Associate Professor, Department of Computer Science, Ipsum</li>
+</ul>
+
+:ET

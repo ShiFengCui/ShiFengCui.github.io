@@ -9,8 +9,8 @@ markdown: kramdown
 tracking_id: #
 
 footer: yes
-footer_url: "https://shifengcui.github.io"
-footer_text: "Page design by Ankit Sultana"
+footer_url: "https://cuishifeng.life"
+footer_text: "崔世峰的博客 - Page design by Ankit Sultana"
 
 sass:
     style: compressed
@@ -20,9 +20,9 @@ plugins:
   - jekyll-feed
 
 nav:
+ - name: "First"
+   link: "/"
  - name: "About"
-   link: ""
- - name: "Resume"
    link: "resume.pdf"
  - name: "Contact"
    link: "contact"
