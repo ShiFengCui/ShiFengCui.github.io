@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## About Me
+## 我的网络日志
 
 <img class="profile-picture" src="/image/WechatIMG99.jpeg">
 
